@@ -1,5 +1,6 @@
 # Kütüphaneler
 
+-leaflet
 -react-leaflet
 -react-redux
 -@reduxjs/toolkit

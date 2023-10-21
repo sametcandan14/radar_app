@@ -102,3 +102,10 @@ header div {
 header img {
   height: 90px;
 }
+
+/* Map CSS*/
+
+.leaflet-container {
+  width: 100%;
+  height: 70vh;
+}
