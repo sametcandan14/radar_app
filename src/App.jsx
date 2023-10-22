@@ -19,13 +19,13 @@ useEffect(()=> {
       <Header />
       <div className="view-buttons">
         <button
-          className={showMapView && "active"}
+          className={showMapView ? "active": ""}
           onClick={() => setShowMapView(true)}
         >
           Map View
         </button>
         <button
-          className={!showMapView && "active"}
+          className={!showMapView ? "active" : ""}
           onClick={() => setShowMapView(false)}
         >
           List View

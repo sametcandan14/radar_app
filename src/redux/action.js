@@ -10,5 +10,6 @@ const newData= res.data.aircraft.map((flight)=>({
     lat:flight[2],
     lang:flight[3]
 }))
-console.log(newData);
+
+return newData
 })
