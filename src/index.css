@@ -139,3 +139,16 @@ header img {
   gap: 25px;
   box-shadow: 2px 2px 20px #535bf2;
 }
+
+.close {
+  display: flex;
+  justify-content: end;
+  font-size: 19px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.load {
+  text-align: center;
+  margin-top: 30px;
+}
