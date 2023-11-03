@@ -4,8 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +25,8 @@ body {
   margin: 0;
 
   min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 }
 
 h1 {
@@ -140,6 +140,14 @@ header img {
   box-shadow: 2px 2px 20px #535bf2;
 }
 
+.detail-inner p {
+  margin: 0;
+}
+
+.detail-inner h2 {
+  margin: 0;
+}
+
 .close {
   display: flex;
   justify-content: end;
@@ -151,4 +159,14 @@ header img {
 .load {
   text-align: center;
   margin-top: 30px;
+}
+
+.status {
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.close {
+  background: #535bf2;
+  border-radius: 8px;
 }

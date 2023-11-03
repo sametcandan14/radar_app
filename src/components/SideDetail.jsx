@@ -6,6 +6,7 @@ const SideDetail = ({ detailId, setShowDetail }) => {
   const [d, setDetail] = useState(null);
   console.log(d);
   useEffect(() => {
+    setDetail(null);
     axios
       .get(
         `https://flight-radar1.p.rapidapi.com/flights/detail?flight=${detailId}`,
@@ -41,7 +42,7 @@ const SideDetail = ({ detailId, setShowDetail }) => {
               </p>
               <p>
                 Status:{" "}
-                <span style={{ background: d.status?.icon }}>
+                <span className="status" style={{ background: d.status?.icon }}>
                   {d.status?.text}
                 </span>
               </p>
