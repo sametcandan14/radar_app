@@ -170,3 +170,24 @@ header img {
   background: #535bf2;
   border-radius: 8px;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.selected {
+  border-radius: 6px;
+  background-color: #535bf2;
+}
+.selected a {
+  padding: 8px 15px;
+}
+
+.list-page {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

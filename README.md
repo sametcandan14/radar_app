@@ -19,3 +19,11 @@
 "MapView.jsx" de harita(react leaflet) kurulumunu yap.
 
 -Toolkit ile beraber redux kurulumunu yap.
+
+#Screenshoots
+
+![](./src/assets/screenshoot1.png)
+
+![](./src/assets/screenshoot2.png)
+
+![](./src/assets/screenshoot3.png)
